@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0acaec;
+}
+
+header {
+    background-color: #8a31e2f1;
+    color: rgba(11, 1, 1, 0.862);
+    text-align: center;
+    padding: 1em;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+}
+
+.pricing-tier {
+    background-color: #ea0c0c;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(9, 0, 0, 0.1);
+    padding: 2em;
+    text-align: center;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #090202;
+    margin: 0.5em 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.5em 0;
+}
